@@ -23,7 +23,7 @@ class UrlCreateView(CreateView):
     success_message = 'Your successfully create short url!'
 
     def form_valid(self, form):
-        if Url.objects.filter(url=form.cleaned_data.get('url')).first():
+        if Url.objects.filter(url=form.cleaned_data.get('url'), user=self.request.user).first():
             return redirect('home')
         form.instance.short_url = generate_short_url()
         form.instance.user = self.request.user
