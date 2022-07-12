@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c297ca8-0bab-4b92-944f-caaba866bc8c" name="Changes" comment="add procfile">
+    <list default="true" id="2c297ca8-0bab-4b92-944f-caaba866bc8c" name="Changes" comment="add ALLOWED_HOSTS">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/templates/link/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/templates/link/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/link/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657595600027</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add ALLOWED_HOSTS">
+      <created>1657596364922</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657596364922</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +99,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="complete app" />
     <MESSAGE value="add procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="add procfile" />
+    <MESSAGE value="add ALLOWED_HOSTS" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ALLOWED_HOSTS" />
   </component>
 </project>

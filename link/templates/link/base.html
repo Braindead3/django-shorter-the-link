@@ -24,7 +24,8 @@
     </div>
     <div class="col-md-2">
         {% if user.is_authenticated %}
-        <h1>Username:{{ user.username }}</h1>
+        <h1>Username:</h1>
+        <h2>{{ user.username }}</h2>
         {% endif %}
     </div>
 </body>

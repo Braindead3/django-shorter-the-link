@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-=g!8-l57#y1h_5&^297tu*4cgrjzgwxrr294i0g5dg+c2v)1yq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['vlad-django-url-shortener.herokuapp.com']
+ALLOWED_HOSTS = ['vlad-django-url-shortener.herokuapp.com','127.0.0.1']
 
 
 # Application definition
