@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-=g!8-l57#y1h_5&^297tu*4cgrjzgwxrr294i0g5dg+c2v)1yq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['vlad-django-url-shortener.herokuapp.com']
 
 
 # Application definition
@@ -132,3 +132,4 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home'
+

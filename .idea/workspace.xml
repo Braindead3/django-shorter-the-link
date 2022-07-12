@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c297ca8-0bab-4b92-944f-caaba866bc8c" name="Changes" comment="complete app">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+    <list default="true" id="2c297ca8-0bab-4b92-944f-caaba866bc8c" name="Changes" comment="add procfile">
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657594880675</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add procfile">
+      <created>1657595600027</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657595600027</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,6 +87,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="complete app" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete app" />
+    <MESSAGE value="add procfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="add procfile" />
   </component>
 </project>
