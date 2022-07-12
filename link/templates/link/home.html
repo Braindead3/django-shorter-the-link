@@ -13,7 +13,7 @@
     {% for url in object_list %}
     <tr>
         <td><a href="{{ url.url }}">{{ url.url }}</a></td>
-        <td><a href="{% url 'redirect-url' url.short_url %}">http://127.0.0.1:8000/{{ url.short_url }}/</a></td>
+        <td><a href="{% url 'redirect-url' url.short_url %}">https://vlad-django-url-shortener.herokuapp.com/{{ url.short_url }}/</a></td>
     </tr>
     {% endfor %}
     </tbody>
