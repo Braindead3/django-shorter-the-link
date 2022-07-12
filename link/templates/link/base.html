@@ -10,12 +10,22 @@
 <body>
 <div class="row">
     <div class="col-md-2">
+        {% if user.is_authenticated %}
+        <a class="ml-2 btn btn-info mt-2" href="{% url 'create-url' %}">Create short url</a>
+        <a class="ml-2 btn btn-info mt-2" href="{% url 'logout' %}">Logout</a>
+        {% else %}
+        <a class="ml-2 btn btn-info mt-2" href="{% url 'login' %}">Login</a>
+        <a class="ml-2 btn btn-info mt-2" href="{% url 'register' %}">Register</a>
+        {% endif %}
     </div>
     <div class="col-md-8">
         {% block content %}
         {% endblock content %}
     </div>
     <div class="col-md-2">
+        {% if user.is_authenticated %}
+        <h1>Username:{{ user.username }}</h1>
+        {% endif %}
     </div>
 </body>
 </html>
